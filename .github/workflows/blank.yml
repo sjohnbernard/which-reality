@@ -32,6 +32,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: OWASP ZAP Baseline Scan
         uses: zaproxy/action-baseline@v0.3.0
-        with: |
+        with: 
             # Target URL of PHP Container
             target: http://172.17.0.2
